@@ -85,9 +85,16 @@ void display() {
 
 	for (int i = 0; i < n; i++) {
 		cout << arr[i] << " ";
-}
+	}
 	cout << "\n\nnumber of comparison: " << cmp_count << endl;
 	cout << "Number of data movement: " << mov_count << endl;
+}
+
+int main() {
+	input();
+	//dort the array using quick sort
+	q_short(0, n - 1);
+}
 
 
 
