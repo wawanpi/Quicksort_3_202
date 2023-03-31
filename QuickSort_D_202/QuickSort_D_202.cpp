@@ -52,7 +52,7 @@ void q_short(int low, int high) {
 	while (i <= j) //Langkah 10
 	{
 		//search for an element greather than pivot 
-		while ((arr[i] <= pivot) && (i <= high) //Langkah 5
+		while ((arr[i] <= pivot) && (i <= high)) //Langkah 5
 		{
 			i++;	//Langkah 6
 			cmp_count++;
@@ -94,6 +94,11 @@ int main() {
 	input();
 	//dort the array using quick sort
 	q_short(0, n - 1);
+	display();
+	system("pause");
+
+	return 0;
+
 }
 
 
