@@ -48,3 +48,9 @@ void q_short(int low, int high) {
 	j = high;	 //Langkah 4
 	pivot = arr[low]; //Langkah 2
 
+
+	while (i <= j) //Langkah 10
+	{
+
+	}
+
