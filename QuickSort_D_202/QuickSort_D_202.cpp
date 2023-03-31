@@ -45,4 +45,5 @@ void q_short(int low, int high) {
 	// one contaning element less that or equal to pivot
 	// outher contaning element greather than pivot
 	i = low + 1; //Langkah 3
+	j = high;	 //Langkah 4
 
