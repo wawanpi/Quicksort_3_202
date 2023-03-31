@@ -46,4 +46,5 @@ void q_short(int low, int high) {
 	// outher contaning element greather than pivot
 	i = low + 1; //Langkah 3
 	j = high;	 //Langkah 4
+	pivot = arr[low]; //Langkah 2
 
