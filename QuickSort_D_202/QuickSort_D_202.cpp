@@ -55,6 +55,9 @@ void q_short(int low, int high) {
 		while ((arr[i] <= pivot) && (i <= high) //Langkah 5
 		{
 			i++;	//Langkah 6
+			cmp_count++;
 		}
+		cmp_count++;
+		// search for an element less thanor equal to pivot
 	}
 
